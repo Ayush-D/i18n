@@ -2,14 +2,14 @@
     <div class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                </div>
                 <div class="col-md-3 col-sm-6 col-xs12 footer-block">
-                    <div style="font-weight:bold;color:#99ccff;font-size:10pt;margin-top:15px">Google</div>
-                    <a href="https://www.google.com" style="color:#e6e6e6">Google HomePage</a><br/>
+                    <h3 th:text="#{home.page.AboutUS}" style="font-weight: bold"></h3>
+                    <p th:text="#{home.page.InfoUS}" style="text-align: left"></p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                    <br/>
+                <div class="meow" style="text-align: right">
+                    <h3 th:text="#{home.page.ContactUS}" style="font-weight: bold"></h3>
+                    <p  th:text="#{home.page.PhoneNo}" style="text-align: right"></p>
+                    <p  th:text="#{home.page.Mail}" style="text-align: right"></p>
                 </div>
             </div>
         </div>
