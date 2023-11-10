@@ -1,4 +1,6 @@
-# i18n
+# i18n README 
+
+It shows how the hotel reservation website looks like when with internalization enabled.
 
 ## English
 ![image](https://user-images.githubusercontent.com/31109284/127640497-9577b3b9-f9bf-42cd-9159-3d90c9be78d7.png)
